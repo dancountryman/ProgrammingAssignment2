@@ -1,8 +1,9 @@
+
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## makeCacheMatix creates a vector containing the matrix in the matrix variable and
-##   empty inverse object set to NA.
+## makeCacheMatix creates a list containing the matrix and 
+##   empty inverse object set to NULL.
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
